@@ -88,7 +88,7 @@ button[type="submit"]:hover {
 }
 
 /* Estilos para teléfonos móviles (480px o más) */
-@media (max-width: 767px) {
+@media (max-width: 720px) {
   .container {
     padding: 30px;
   }
