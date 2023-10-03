@@ -87,11 +87,14 @@ button[type="submit"]:hover {
   }
 }
 
-/* Estilos para teléfonos móviles (480px o más) */
-@media (max-width: 1220px) {
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
   .container {
-    padding: 30px;
+    max-width: 100%;
+    padding: 20px;
+    /* Otros estilos para pantallas más pequeñas */
   }
+  
 
   .imagen-esquina-izquierda {
     width: 30px;
